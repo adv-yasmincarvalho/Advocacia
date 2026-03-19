@@ -60,7 +60,9 @@ const AboutSection = () => {
 
           {/* CTA leve (MELHORIA IMPORTANTE) */}
           <a
-              href="#contato"
+              href="https://api.whatsapp.com/send?phone=559185309796"
+	      target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-primary text-primary-foreground px-10 py-5 rounded-lg font-body font-medium tracking-wide text-lg transition-all hover:bg-wine-dark hover:shadow-elevated hover:scale-[1.02] active:scale-95"
             >
             Fale comigo
