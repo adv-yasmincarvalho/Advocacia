@@ -19,7 +19,7 @@ const ContactSection = () => {
   );
 
   // Alterado de wa.me para api.whatsapp.com/send
-  window.open(`https://api.whatsapp.com/send?phone=5591985309796&text=${msg}`, "_blank");
+  window.open(`https://api.whatsapp.com/send?phone=559185309796&text=${msg}`, "_blank");
   };
 
   return (
