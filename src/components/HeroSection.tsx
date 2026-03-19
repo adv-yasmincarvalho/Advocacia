@@ -58,13 +58,14 @@ const HeroSection = () => {
 
             <div className={`transition-all duration-700 delay-500 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
               <a
-                href="#contato"
+                href="https://api.whatsapp.com/send?phone=559185309796&text=Olá,%20Dra.%20Yasmin.%20Gostaria%20de%20agendar%20uma%20consulta."
+	        target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block bg-primary text-primary-foreground px-10 py-5 rounded-lg font-body font-medium tracking-wide text-lg transition-all hover:bg-wine-dark hover:shadow-elevated hover:scale-[1.02] active:scale-95"
               >
                 Agende uma Consulta
               </a>
             </div>
-
           </div>
         </div>
       </div>
