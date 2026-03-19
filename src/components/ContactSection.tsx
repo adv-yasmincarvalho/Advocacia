@@ -12,13 +12,14 @@ const ContactSection = () => {
   });
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    const msg = encodeURIComponent(
-      `Olá, meu nome é ${form.nome}. ${form.mensagem}`
-    );
+  const msg = encodeURIComponent(
+    `Olá, meu nome é ${form.nome}. ${form.mensagem}`
+  );
 
-    window.open(`https://wa.me/5591985309796?text=${msg}`, "_blank");
+  // Alterado de wa.me para api.whatsapp.com/send
+  window.open(`https://api.whatsapp.com/send?phone=5591985309796&text=${msg}`, "_blank");
   };
 
   return (
